@@ -25,12 +25,12 @@ class TestHifiGan(TestCase):
             conv_post_bias=True,
         )
 
-    def test_forward(self):
-        x = torch.randn(3, 192, 100)
-        g = torch.randn(3, 256, 100)
+    def test_forward(self) -> None:
+        x = torch.randn(3, 192, 20)
+        g = torch.randn(3, 256, 20)
         y = self.g(x, g)
         torch.testing.assert_allclose(
-            y.shape, torch.Size([3, 1, 100 * 8 * 8 * 2 * 2 * 2])
+            y.shape, torch.Size([3, 1, 20 * 8 * 8 * 2 * 2 * 2])
         )
 
 
@@ -52,11 +52,11 @@ class TestNSFHifigan(TestCase):
             conv_post_bias=True,
         )
 
-    def test_forward(self):
-        x = torch.randn(3, 192, 100)
-        f0 = torch.randn(3, 1, 100)
-        g = torch.randn(3, 256, 100)
+    def test_forward(self) -> None:
+        x = torch.randn(3, 192, 20)
+        f0 = torch.randn(3, 1, 20)
+        g = torch.randn(3, 256, 20)
         y = self.g(x, g, f0)
         torch.testing.assert_allclose(
-            y.shape, torch.Size([3, 1, 100 * 8 * 8 * 2 * 2 * 2])
+            y.shape, torch.Size([3, 1, 20 * 8 * 8 * 2 * 2 * 2])
         )
