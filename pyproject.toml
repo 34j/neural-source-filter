@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "neural-source-filter"
-version = "0.1.0"
+version = "0.1.1"
 description = "Python package for NSF (unofficial)"
 authors = ["34j <34j.95a2p@simplelogin.com>", "Xin Wang", "National Institute of Informatics"]
 license = "BSD-3-Clause"
