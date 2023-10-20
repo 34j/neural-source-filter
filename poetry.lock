@@ -4542,15 +4542,15 @@ tutorials = ["matplotlib", "pandas", "tabulate"]
 
 [[package]]
 name = "tts"
-version = "0.17.9"
+version = "0.18.0"
 description = "Deep learning for Text to Speech by Coqui."
 optional = false
 python-versions = ">=3.9.0, <3.12"
 files = [
-    {file = "TTS-0.17.9-cp310-cp310-manylinux1_x86_64.whl", hash = "sha256:d70ea917f837c593d580d05b84a4e35d0a65102c00287e17973859ffff65b0a4"},
-    {file = "TTS-0.17.9-cp311-cp311-manylinux1_x86_64.whl", hash = "sha256:a6c6d11eeaa874a4bb76559d3f0ad7cd3a938bff1feb38df2c27da5295f268eb"},
-    {file = "TTS-0.17.9-cp39-cp39-manylinux1_x86_64.whl", hash = "sha256:ff876b74e43e139b599d0f3044fb6bdf74c680724cb1accaf637a2fb25bba00f"},
-    {file = "TTS-0.17.9.tar.gz", hash = "sha256:6b1f3f8996998dbc88eb7465fe48f3ffa99e4135c17e21a7e0dd132972498566"},
+    {file = "TTS-0.18.0-cp310-cp310-manylinux1_x86_64.whl", hash = "sha256:33de49228f4cdfb89bf9b9b6977fb92fdbb6cfb24787855787a8aac7b4de8ccf"},
+    {file = "TTS-0.18.0-cp311-cp311-manylinux1_x86_64.whl", hash = "sha256:307a96e20cc3e8462ae1f20c525c1b979c338bca9299f838b5cf0fa3a5359e6f"},
+    {file = "TTS-0.18.0-cp39-cp39-manylinux1_x86_64.whl", hash = "sha256:eab94ec234036f383e89abeeac42062305097bbebd9cb24d5d52a0554c22e49e"},
+    {file = "TTS-0.18.0.tar.gz", hash = "sha256:21a29e22f99298f2d839bfa0806397d41a9a3fc754e609292c492f11b146b73e"},
 ]
 
 [package.dependencies]
@@ -4593,9 +4593,9 @@ umap-learn = "==0.5.*"
 unidecode = "==1.3.*"
 
 [package.extras]
-all = ["black", "bokeh (==1.4.0)", "coverage", "isort", "mecab-python3 (==1.0.6)", "nose2", "pylint (==2.10.2)", "unidic-lite (==1.0.8)"]
+all = ["black", "bokeh (==1.4.0)", "coverage", "cutlet", "isort", "mecab-python3 (==1.0.6)", "nose2", "pylint (==2.10.2)", "unidic-lite (==1.0.8)"]
 dev = ["black", "coverage", "isort", "nose2", "pylint (==2.10.2)"]
-ja = ["mecab-python3 (==1.0.6)", "unidic-lite (==1.0.8)"]
+ja = ["cutlet", "mecab-python3 (==1.0.6)", "unidic-lite (==1.0.8)"]
 notebooks = ["bokeh (==1.4.0)"]
 
 [[package]]
@@ -4895,4 +4895,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9,<3.11"
-content-hash = "d05f7e0beb65c74ff21d71850819452af02ef607fa44d245b362a529690c38fe"
+content-hash = "4fbe662bb8308dbf8619ddbc1db4b6abfef47185087123a24a3c74afcff28f91"
