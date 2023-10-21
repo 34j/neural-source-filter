@@ -4542,15 +4542,15 @@ tutorials = ["matplotlib", "pandas", "tabulate"]
 
 [[package]]
 name = "tts"
-version = "0.18.1"
+version = "0.18.2"
 description = "Deep learning for Text to Speech by Coqui."
 optional = false
 python-versions = ">=3.9.0, <3.12"
 files = [
-    {file = "TTS-0.18.1-cp310-cp310-manylinux1_x86_64.whl", hash = "sha256:e5200b756933558b146a91cbb080d52e0642e64f1ccaf1d190a6e96d1cfa6fbd"},
-    {file = "TTS-0.18.1-cp311-cp311-manylinux1_x86_64.whl", hash = "sha256:7f0f5a43ac791004f8bb5c8d2d53f63190f23d0826f9735e74b837de0daf70cc"},
-    {file = "TTS-0.18.1-cp39-cp39-manylinux1_x86_64.whl", hash = "sha256:03cdac8fd234049d25ffb6e69b21a9ff690fc740cf1a7827d30ff0a8a1a8f7d7"},
-    {file = "TTS-0.18.1.tar.gz", hash = "sha256:7ddbe26dcebb0a875fb4ed4f0ecb2340f5fa543878fe3be98fdc07cc11b17819"},
+    {file = "TTS-0.18.2-cp310-cp310-manylinux1_x86_64.whl", hash = "sha256:d1c7cfe17523748666e20360901b5b3cf69ffe9309b4bb2104409824d95be10f"},
+    {file = "TTS-0.18.2-cp311-cp311-manylinux1_x86_64.whl", hash = "sha256:90b83b2ac7ba00c8d8284df807eeff533c5cce07370aca47afb2ab244a029064"},
+    {file = "TTS-0.18.2-cp39-cp39-manylinux1_x86_64.whl", hash = "sha256:3a871937151855c7c6266c0e05ac97bc947bdbb6012a6f8fd8533b3c5c74318d"},
+    {file = "TTS-0.18.2.tar.gz", hash = "sha256:26e98ee055a85c2a3761826829be79f2684bb90e6fd14220455af3170c17aeb0"},
 ]
 
 [package.dependencies]
