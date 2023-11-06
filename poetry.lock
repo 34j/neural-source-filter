@@ -1357,6 +1357,17 @@ files = [
 ]
 
 [[package]]
+name = "hangul-romanize"
+version = "0.1.0"
+description = "Rominize Hangul strings."
+optional = false
+python-versions = "*"
+files = [
+    {file = "hangul-romanize-0.1.0.tar.gz", hash = "sha256:fae69ba181af6e75a86460fd7f57a6b304cd5f1973d8c425ed8602fee2c9276c"},
+    {file = "hangul_romanize-0.1.0-py3-none-any.whl", hash = "sha256:7b8ba54b624ca3b17b2c9394b971cd595c4240a31cc0fc6bc1c3e971eca8c4d5"},
+]
+
+[[package]]
 name = "huggingface-hub"
 version = "0.16.4"
 description = "Client library to download and publish models, datasets and other repos on the huggingface.co hub"
@@ -4542,15 +4553,15 @@ tutorials = ["matplotlib", "pandas", "tabulate"]
 
 [[package]]
 name = "tts"
-version = "0.19.1"
+version = "0.20.0"
 description = "Deep learning for Text to Speech by Coqui."
 optional = false
 python-versions = ">=3.9.0, <3.12"
 files = [
-    {file = "TTS-0.19.1-cp310-cp310-manylinux1_x86_64.whl", hash = "sha256:5a86c5c12c370ab1034a35f3f26db641934bbce63d44441ab3c9568430cf930c"},
-    {file = "TTS-0.19.1-cp311-cp311-manylinux1_x86_64.whl", hash = "sha256:771dada1f48a8e71b278edd74c304423426c95638398c6d6d01b272706c30325"},
-    {file = "TTS-0.19.1-cp39-cp39-manylinux1_x86_64.whl", hash = "sha256:857334c1d6697dcce7c4b4155aed8633d9d481a6f23fa95d82f64148eda2e990"},
-    {file = "TTS-0.19.1.tar.gz", hash = "sha256:9d2dd4eaceb7ad3f2500d7c8551a77ac44ec8554fcca7a2077233e08b72d58fe"},
+    {file = "TTS-0.20.0-cp310-cp310-manylinux1_x86_64.whl", hash = "sha256:f8bd32906e3509b808402ab32d1987e36bb4c827f8ae133ff82b87ba47b0cbd6"},
+    {file = "TTS-0.20.0-cp311-cp311-manylinux1_x86_64.whl", hash = "sha256:7e84c3b711c1b3231b16730d74f9737e8a72f54f022b942b943e8f2728786e74"},
+    {file = "TTS-0.20.0-cp39-cp39-manylinux1_x86_64.whl", hash = "sha256:6df96c16c457fa2bbd7650ebec052f560e10f5587894bcee00347a87ff1f565d"},
+    {file = "TTS-0.20.0.tar.gz", hash = "sha256:53e432c685f9db4d8786b05f60423a2964403d75955eb4bab3648f4a4d708f3e"},
 ]
 
 [package.dependencies]
@@ -4567,6 +4578,7 @@ flask = "==2.*"
 fsspec = "2023.6.0"
 g2pkk = ">=0.1.1"
 gruut = {version = "2.2.3", extras = ["de", "es", "fr"]}
+hangul-romanize = "*"
 inflect = "==5.6.*"
 jamo = "*"
 jieba = "*"
@@ -4574,6 +4586,7 @@ k-diffusion = "*"
 librosa = "==0.10.*"
 matplotlib = "==3.7.*"
 nltk = "*"
+num2words = "*"
 numba = {version = "0.57.0", markers = "python_version >= \"3.9\""}
 numpy = {version = "1.22.0", markers = "python_version <= \"3.10\""}
 packaging = "23.1"
@@ -4895,4 +4908,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9,<3.11"
-content-hash = "6252598b1fe5f86044810a77a29248c50097423be69bfc5331af9b724d678b02"
+content-hash = "fba8187edf236bd7d0ceca39b8fde8c7da0c5869bbfa50c657a377df534990c2"
