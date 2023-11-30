@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.1.14 (2023-11-30)
+
+### Fix
+
+- Update dependency tts to v0.21.2 (#51) ([`98f4a3f`](https://github.com/34j/neural-source-filter/commit/98f4a3f943b8a3f3c2862b2e98d65688f6dccd0d))
+
 ## v0.1.13 (2023-11-24)
 
 ### Fix
