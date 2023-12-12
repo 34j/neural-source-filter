@@ -27,7 +27,7 @@ packages = [
 python = "^3.9,<3.11"
 torch = "^2.0.0,!=2.0.1"
 numpy = "^1.22.0"
-tts = "^0.21.0"
+tts = "^0.22.0"
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = ">=3"
