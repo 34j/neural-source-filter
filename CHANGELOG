@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.1.20 (2024-03-27)
+
+### Fix
+
+- Update dependency numpy to v1.26.4 (#90) ([`48696e2`](https://github.com/34j/neural-source-filter/commit/48696e2d516b1c86ae1bbe38262bd52f772aa006))
+
 ## v0.1.19 (2024-03-27)
 
 ### Fix
