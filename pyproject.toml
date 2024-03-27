@@ -24,7 +24,7 @@ packages = [
 "Changelog" = "https://github.com/34j/neural-source-filter/blob/main/CHANGELOG.md"
 
 [tool.poetry.dependencies]
-python = "^3.9,<3.11"
+python = "^3.9, <3.12"
 torch = "^2.0.0,!=2.0.1"
 numpy = "^1.22.0"
 tts = "^0.22.0"
